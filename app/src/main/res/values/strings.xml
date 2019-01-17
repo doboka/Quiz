@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="again">Again</string>
+    <string name="quit">Quit</string>
+    <string name="hello_blank_fragment">Options</string>
+    <string name="question">question</string>
+    <string name="answer2">answer2</string>
+    <string name="answer3">answer3</string>
+    <string name="answer4">answer4</string>
+    <string name="next">next</string>
+    <string name="answer1">answer1</string>
+    <string name="username">Username</string>
+    <string name="action_settings">action_settings</string>
+
+</resources>

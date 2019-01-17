@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context="com.example.android.quiz.MainActivity">
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/TextViewStyle" />
+
+        <TextView
+            android:id="@+id/question"
+            style="@style/QuestionAnswerStyle"
+            android:text="@string/question" />
+
+        <RadioGroup
+            android:id="@+id/answers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp">
+
+            <RadioButton
+                android:id="@+id/answer1"
+                style="@style/RadioButtonStyle" />
+
+            <RadioButton
+                android:id="@+id/answer2"
+                style="@style/RadioButtonStyle" />
+
+            <RadioButton
+                android:id="@+id/answer3"
+                style="@style/RadioButtonStyle" />
+
+            <RadioButton
+                android:id="@+id/answer4"
+                style="@style/RadioButtonStyle" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/next_button"
+            style="@style/ButtonStyle"
+            android:onClick="nextQuestion"
+            android:text="@string/next" />
+
+        <TextView
+            android:id="@+id/result"
+            style="@style/QuestionAnswerStyle"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+</ScrollView>
